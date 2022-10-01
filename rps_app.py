@@ -1,5 +1,5 @@
 import tensorflow as tf
-model = tf.keras.models.load_model('Farida_food_classifier.hdf5')
+model = tf.keras.models.load_model('Farida_food_classifier.h5')
 import streamlit as st
 st.write("""
          # Mohammed FOOD classifier for Food101
